@@ -1,0 +1,21 @@
+{
+    "meta":
+        {
+            "timestamp": ""
+        },
+            
+        
+    "data":
+        {
+            "term_code": row["Term"],
+            "course_code": row["course_code"],
+            "seek_course_namespace": row["seek_course_namespace"],
+            "link_to_seek": row["link_to_seek"],
+            "program_type": row["program_type"],
+            "start_date": row["start_date"],
+            "end_date": row["end_Date"],
+            "exam_date": row['exam_Date'],
+            "level": row["level"]
+
+        }
+}
